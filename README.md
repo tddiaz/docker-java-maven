@@ -1,7 +1,12 @@
 # docker-java8-maven
-custom docker image with docker + java 8 + maven installed
+custom docker image with docker + java + maven installed
+
+currently supports java 8
 
 ```
-docker pull tddiaz/docker-java:latest
+docker pull tddiaz/docker-java-maven:latest
+```
+```
+docker pull tddiaz/docker-java-maven:jdk8
 ```
 
