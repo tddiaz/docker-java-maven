@@ -4,6 +4,9 @@ MAINTAINER Tristan Diaz
 
 ENV LANG C.UTF-8
 
+RUN apk add --no-cache py-pip python-dev libffi-dev openssl-dev gcc libc-dev make && \
+    pip install docker-compose
+
 RUN { \
         echo '#!/bin/sh'; \
         echo 'set -e'; \
