@@ -1,4 +1,4 @@
-# docker-java8-maven
+# docker-java-maven
 custom docker image with docker + java + maven installed
 
 currently supports java 8
